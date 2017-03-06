@@ -11,7 +11,7 @@ class PayUCustomers{
 	
 	/**
 	 * Creates a customer 
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -31,7 +31,7 @@ class PayUCustomers{
 	
 	/**
 	 * Creates a customer with bank account information
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -56,7 +56,7 @@ class PayUCustomers{
 	
 	/**
 	 * Creates a customer with credit card information
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -83,7 +83,7 @@ class PayUCustomers{
 	
 	/**
 	 * Finds a customer by id
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -105,7 +105,7 @@ class PayUCustomers{
 
 	/**
 	 * Updates a customer
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -129,7 +129,7 @@ class PayUCustomers{
 	
 	/**
 	 * Deletes a customer
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -153,7 +153,7 @@ class PayUCustomers{
 	/**
 	 * Finds the customers associated to a plan by plan id or by plan code
 	 * 
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * 

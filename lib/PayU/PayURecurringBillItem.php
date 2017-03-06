@@ -11,7 +11,7 @@ class PayURecurringBillItem{
 	
 	/**
 	 * Creates a recurring bill item 
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -39,7 +39,7 @@ class PayURecurringBillItem{
 	
 	/**
 	 * Finds recurring bill items by id
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -62,7 +62,7 @@ class PayURecurringBillItem{
 	/**
 	 * Returns the recurring bill items with the query params
 	 *
-	 * @param parameters
+	 * @param $parameters
 	 *            The parameters to be sent to the server
 	 * @return the recurring bill items found
 	 * @throws PayUException
@@ -96,7 +96,7 @@ class PayURecurringBillItem{
 	
 	/**
 	 * Updates a recurring bill item
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -117,7 +117,7 @@ class PayURecurringBillItem{
 	
 	/**
 	 * Deletes a recurring bill item
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException

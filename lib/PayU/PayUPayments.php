@@ -55,7 +55,7 @@ class PayUPayments{
 	/**
 	 * list PSE Banks 
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * 
 	 * @return The bank list information
@@ -74,7 +74,7 @@ class PayUPayments{
 	
 	/**
 	 * Do an authorization and capture transaction 
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The transaction response to the request sent
 	 * @throws PayUException
@@ -91,7 +91,7 @@ class PayUPayments{
 	/**
 	 * Makes payment petition
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param transactionType
 	 *            The type of the payment transaction
 	 * @param string $lang language of request see SupportedLanguages class            
@@ -206,7 +206,7 @@ class PayUPayments{
 	/**
 	 * Process a transaction already authorizated
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param transactionType
 	 *            The type of the payment transaction
 	 * @param string $lang language of request see SupportedLanguages class            
@@ -228,7 +228,7 @@ class PayUPayments{
 	/**
 	 * Do an authorization transaction
 	 *
-	 * @param parameters to build the request
+	 * @param $parameters to build the request
 	 * @param string $lang language of request see SupportedLanguages class 
 	 * @return The request response
 	 * @throws PayUException
@@ -242,7 +242,7 @@ class PayUPayments{
 	/**
 	 * Do a capture transaction
 	 *
-	 * @param parameters to build the request
+	 * @param $parameters to build the request
 	 * @param string $lang language of request see SupportedLanguages class 
 	 * @return The transaction response to the request sent
 	 * @throws PayUException
@@ -255,7 +255,7 @@ class PayUPayments{
 	/**
 	 * Do a void (Cancel) transaction
 	 *
-	 * @param parameters to build the request
+	 * @param $parameters to build the request
 	 * @param string $lang language of request see SupportedLanguages class 
 	 * @return The transaction response to the request sent
 	 * @throws PayUException
@@ -268,7 +268,7 @@ class PayUPayments{
 	/**
 	 * Do a refund transaction
 	 *
-	 * @param parameters to build the request
+	 * @param $parameters to build the request
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The transaction response to the request sent
 	 * @throws PayUException

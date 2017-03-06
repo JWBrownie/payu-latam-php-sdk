@@ -29,7 +29,7 @@ class PayUReports{
 	/**
 	 * Makes an order details reporting petition by the id
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return order found
 	 * @throws PayUException
@@ -56,7 +56,7 @@ class PayUReports{
 	/**
 	 * Makes an order details reporting petition by reference code
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The order list corresponding whit the given reference code
 	 * @throws PayUException
@@ -83,7 +83,7 @@ class PayUReports{
 	/**
 	 * Makes a transaction reporting petition by the id
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The transaction response to the request sent
 	 * @throws PayUException

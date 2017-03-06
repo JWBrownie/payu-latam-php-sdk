@@ -12,7 +12,7 @@ class PayUBankAccounts{
 	
 	/**
 	 * Creates a bank account to payments
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -37,7 +37,7 @@ class PayUBankAccounts{
 	
 	/**
 	 * Deletes a bank account
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -62,7 +62,7 @@ class PayUBankAccounts{
 	
 	/**
 	 * Updates a bank account
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -87,7 +87,7 @@ class PayUBankAccounts{
 	/**
 	 * Return a bank account with the given id
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @return the find bank account
 	 * @throws PayUException
 	 * @throws InvalidArgumentException
@@ -108,7 +108,7 @@ class PayUBankAccounts{
 	/**
 	 * Finds the bank accounts associated to a customer by customer id
 	 * 
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * 
@@ -148,7 +148,7 @@ class PayUBankAccounts{
 	
 	/**
 	 * Indicates whether any of the parameters for Bank Account is within the parameters list
-	 * @param parameters The parametrs to evaluate
+	 * @param $parameters The parametrs to evaluate
 	 * @return <boolean> returns true if the parameter is in the set
 	 */
 	public static function existParametersBankAccount($parameters){

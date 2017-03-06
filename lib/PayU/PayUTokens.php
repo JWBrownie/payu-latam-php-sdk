@@ -13,7 +13,7 @@ class PayUTokens{
 	
 	/**
 	 * Creates a credit card token
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The transaction response to the request sent
 	 * @throws PayUException
@@ -37,7 +37,7 @@ class PayUTokens{
 	
 	/**
 	 * Finds a credit card token
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The transaction response to the request sent
 	 * @throws PayUException
@@ -64,7 +64,7 @@ class PayUTokens{
 	
 	/**
 	 * Removes a credit card token
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The transaction response to the request sent
 	 * @throws PayUException

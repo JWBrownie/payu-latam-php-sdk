@@ -486,7 +486,7 @@ class RequestPaymentsUtil extends CommonRequestUtil{
 	 * Adds the extra parameters required by the PSE payment method
 	 *
 	 * @param transaction
-	 * @param parameters
+	 * @param $parameters
 	 * @throws InvalidParametersException
 	 */
 	private static function addPSEExtraParameters($transaction, $parameters){
@@ -581,7 +581,7 @@ class RequestPaymentsUtil extends CommonRequestUtil{
 	/**
 	 * Builds a bank account list request
 	 *
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @return stdClass with the bank account list request built
 	 */
 	public static function buildBankAccountListRequest($parameters) {

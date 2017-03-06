@@ -13,7 +13,7 @@ class PayUCreditCards{
 
 	/**
 	 * Creates a credit card 
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -42,7 +42,7 @@ class PayUCreditCards{
 	
 	/**
 	 * finds a credit card
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -64,7 +64,7 @@ class PayUCreditCards{
 	/**
 	 * Returns the credit card list with the query params
 	 *
-	 * @param parameters
+	 * @param $parameters
 	 *            The parameters to be sent to the server
 	 * @return the credit card list
 	 * @throws PayUException
@@ -90,7 +90,7 @@ class PayUCreditCards{
 
 	/**
 	 * Updates a credit card
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -116,7 +116,7 @@ class PayUCreditCards{
 
 	/**
 	 * Deletes a credit card
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -161,7 +161,7 @@ class PayUCreditCards{
 	
 	/**
 	 * Indicates whether any of the parameters of CRedit Card is within the parameters list
-	 * @param parameters The parametrs to evaluate
+	 * @param $parameters The parametrs to evaluate
 	 * @return <boolean> returns true if the parameter is in the set
 	 */
 	public static function existParametersCreditCard($parameters){

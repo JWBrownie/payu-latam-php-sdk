@@ -12,7 +12,7 @@ class PayUSubscriptionPlans{
 	
 	/**
 	 * Creates a subscription plans
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -31,7 +31,7 @@ class PayUSubscriptionPlans{
 	
 	/**
 	 * Find a subscription plan by plan code
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -52,7 +52,7 @@ class PayUSubscriptionPlans{
 
 	/**
 	 * Updates a subscription plan
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -78,7 +78,7 @@ class PayUSubscriptionPlans{
 	
 	/**
 	 * Deletes a subscription plan
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -103,7 +103,7 @@ class PayUSubscriptionPlans{
 	 * Finds all subscription plans filtered by merchant or account
 	 * by default the function filter by merchant if you need filter by account
 	 * you can send in the parameters the account id
-	 * @param parameters The parameters to be sent to the server
+	 * @param $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class 
 	 * @return the subscription plan list
 	 * @throws PayUException
