@@ -2,14 +2,14 @@
     "name": "jwbrownie/payu-latam-php-sdk",
     "description": "Brings to availability on composer to users that needs to require through it",
     "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4"
     },
     "autoload": {
-        "psr-4": {
-          "PayU": "lib"
+        "psr-0": {
+          "PayU\\": "lib/"
         }
-     },
-    "license": "MIT",
-    "minimum-stability": "dev"
+     }
 }
