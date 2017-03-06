@@ -1,5 +1,5 @@
 {
-    "name": "joe/payu-latam-php-sdk",
+    "name": "jwbrownie/payu-latam-php-sdk",
     "description": "Brings to availability on composer to users that needs to require through it",
     "type": "library",
     "require": {
