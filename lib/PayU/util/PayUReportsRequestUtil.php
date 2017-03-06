@@ -35,7 +35,7 @@ class PayUReportsRequestUtil extends CommonRequestUtil{
 	/**
 	 * Builds an order details reporting request. The order will be query by id
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return the request built
 	 */
@@ -60,7 +60,7 @@ class PayUReportsRequestUtil extends CommonRequestUtil{
 	/**
 	 * Builds an order details reporting request. The order will be query by reference code
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return the request built
 	 * 
@@ -85,7 +85,7 @@ class PayUReportsRequestUtil extends CommonRequestUtil{
 	/**
 	 * Builds a transaction reporting request the transaction will be query by id
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The complete reporting request to be sent to the server
 	 */

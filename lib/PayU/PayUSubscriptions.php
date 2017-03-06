@@ -12,7 +12,7 @@ class PayUSubscriptions{
 	
 	/**
 	 * Creates a subscription
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -44,7 +44,7 @@ class PayUSubscriptions{
 	
 	/**
 	 * Update a subscription
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @return The response to the request sent
 	 * @throws PayUException
 	 * @throws InvalidArgumentException
@@ -77,7 +77,7 @@ class PayUSubscriptions{
 	
 	/**
 	 * Cancels a subscription
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -102,7 +102,7 @@ class PayUSubscriptions{
 	/**
 	 * Find the subscription with the given id
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @return the finded Subscription
 	 * @throws PayUException
 	 * @throws InvalidArgumentException
@@ -125,7 +125,7 @@ class PayUSubscriptions{
 	 * payer id, plan id, plan code, accoun id and account status
 	 * using an offset and a limit 
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 *
@@ -153,7 +153,7 @@ class PayUSubscriptions{
 	
 	/**
 	 * validate the Payment Method parameters. Only one payment methos is permitted
-	 * @param $parameters
+	 * @param array $parameters
 	 * @param $existParamBankAccount
 	 * @param $existParamCreditCard
 	 * @throws PayUException

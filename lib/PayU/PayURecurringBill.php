@@ -13,7 +13,7 @@ class PayURecurringBill{
 	
 	/**
 	 * Finds a recurring bill by id
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return The response to the request sent
 	 * @throws PayUException
@@ -42,7 +42,7 @@ class PayURecurringBill{
 	 * - payment method
 	 * - subscription Id
 	 * 
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return the subscription plan list
 	 * @throws PayUException

@@ -16,7 +16,7 @@ class PayUTokensRequestUtil extends CommonRequestUtil{
 	/**
 	 * Builds a create credit card token request
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return the request built
 	 * 
@@ -39,7 +39,7 @@ class PayUTokensRequestUtil extends CommonRequestUtil{
 	/**
 	 * Builds a create credit card token request
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return the request built
 	 */
@@ -76,7 +76,7 @@ class PayUTokensRequestUtil extends CommonRequestUtil{
 	/**
 	 * Builds a create credit card token remove request
 	 *
-	 * @param $parameters The parameters to be sent to the server
+	 * @param array $parameters The parameters to be sent to the server
 	 * @param string $lang language of request see SupportedLanguages class
 	 * @return the request built
 	 */
