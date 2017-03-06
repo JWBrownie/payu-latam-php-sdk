@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU;
 /**
  * Manages all PayU recurring bill operations 
  * @author PayU Latam

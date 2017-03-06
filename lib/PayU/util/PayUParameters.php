@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  *
  * Contains the parameters names 

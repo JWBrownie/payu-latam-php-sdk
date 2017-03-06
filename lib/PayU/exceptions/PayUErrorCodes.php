@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Exceptions;
 /**
  * 
  * Contains the error codes  used in exceptions

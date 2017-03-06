@@ -1,4 +1,5 @@
 <?php
+namespace PayU\Api;
 /**
  * Class contains payments countries in the PayU SDK. Sometimes when a payment
  * method is processed by several countries is necessary to specify the country

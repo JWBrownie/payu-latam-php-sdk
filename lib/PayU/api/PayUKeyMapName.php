@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * Contains the attribute name for the differents operation against api
  *

@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * Available PayU response codes for request
 

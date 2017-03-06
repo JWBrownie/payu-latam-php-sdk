@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  *
  * Utility class to generate the payu signature

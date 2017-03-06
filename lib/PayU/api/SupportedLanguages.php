@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * Contains the supported languages by the payu platform
  *

@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  * 
  * This class has utility methods for objects used in the request

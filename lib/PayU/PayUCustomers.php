@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU;
 /**
  * Manages all PayU customers  operations 
  * @author PayU Latam

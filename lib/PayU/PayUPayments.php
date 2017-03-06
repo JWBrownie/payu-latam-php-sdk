@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU;
 /**
  * Manages all PayU payments operations
  *

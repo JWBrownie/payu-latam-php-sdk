@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  * Utility class for send http request
  * @author PayU Latam

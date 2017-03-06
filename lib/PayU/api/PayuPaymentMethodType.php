@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 
 /**
  * This class contains the different payment method types

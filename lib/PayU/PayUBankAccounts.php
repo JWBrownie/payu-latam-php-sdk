@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU;
 /**
  * Manages all PayU Bank Accounts operations over payment plans
  *

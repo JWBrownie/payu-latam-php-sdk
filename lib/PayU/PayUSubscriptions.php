@@ -1,4 +1,5 @@
 <?php
+namespace PayU;
 
 /**
  * Manages all PayU subscriptions operations 

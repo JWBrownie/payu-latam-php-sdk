@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * Specifies the transaction operations 
  * @author PayU Latam

@@ -1,4 +1,6 @@
 <?php
+namespace PayU;
+
 /**
  * Manages all PayU reports operations
  *

@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * Contains information about the configuration 
  * for this client api

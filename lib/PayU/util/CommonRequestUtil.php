@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  *
  * Util class for WEB request

@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * Contains information about the Environment setup
  *

@@ -1,5 +1,7 @@
 <?php
 
+namespace PayU;
+
 /**
  * Manages all PayU tokens operations 
  * @author PayU Latam

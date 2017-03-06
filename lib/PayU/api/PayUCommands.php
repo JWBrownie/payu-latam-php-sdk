@@ -1,4 +1,5 @@
 <?php
+namespace PayU\Api;
 /**
  * This class contains the payu commands
  * availables in payu platform

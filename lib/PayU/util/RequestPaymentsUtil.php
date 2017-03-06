@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  *
  * Utility class to process parameters and send payment requests

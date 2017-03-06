@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Api;
 /**
  * The API request methods
  * 

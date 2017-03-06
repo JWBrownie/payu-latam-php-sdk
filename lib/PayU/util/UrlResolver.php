@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Utils;
 /**
  *
  * Util class to build the url to api operations

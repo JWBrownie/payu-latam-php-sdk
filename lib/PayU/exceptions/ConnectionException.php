@@ -1,5 +1,5 @@
 <?php
-
+namespace PayU\Exceptions;
 /**
  * 
  * Payu exception throw when the api service cann't 
